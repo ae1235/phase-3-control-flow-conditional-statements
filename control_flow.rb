@@ -1,3 +1,4 @@
+require 'pry'
 def admin_login(username, password)
   # your code here
   if username == "admin" && password == "12345"
@@ -52,3 +53,4 @@ def calculator(operation, num1, num2)
     end
 end
 
+binding.pry
